@@ -1,0 +1,79 @@
+.topFixedBanner {
+  background-image: url(../../../../public/images/slider.jpg);
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topNavbarOverlay {
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.topContent {
+  margin-top: 15rem;
+}
+
+.topTitle {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  color: #ffffff;
+  user-select: none;
+}
+
+.topSubTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 2rem 0;
+  word-spacing: 1px;
+  user-select: none;
+}
+
+.topBtn1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+@media (max-width: 1080px) {
+  .topTitle {
+    font-size: 50px;
+  }
+
+  .topSubTitle {
+    font-size: 18px;
+  }
+  /* .topContent {
+      margin-top: 10rem;
+    } */
+}
+
+@media (max-width: 768px) {
+  /* .topContent {
+      margin-top: 7rem;
+    } */
+  .topTitle {
+    font-size: 35px;
+  }
+
+  .topSubTitle {
+    font-size: 15px;
+  }
+
+  .topBtn1 {
+    margin-bottom: 10px;
+  }
+}

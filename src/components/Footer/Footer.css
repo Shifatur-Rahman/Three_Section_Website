@@ -1,0 +1,37 @@
+.footer {
+  background-color: #2f3640;
+  color: #fff;
+  padding: 20px;
+}
+
+.footerTitle {
+  color: #dcdde1;
+  margin-top: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+footer ul {
+  margin-top: 70px;
+}
+
+footer ul li a {
+  color: #dcdde1;
+}
+
+footer ul li a:hover {
+  color: #718093;
+}
+
+.address {
+  margin-top: 40px;
+  color: #dcdde1;
+  font-size: 12px;
+}
+
+.contactAddress {
+  font-family: "Realeway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
