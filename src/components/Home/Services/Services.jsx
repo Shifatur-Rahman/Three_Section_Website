@@ -66,30 +66,6 @@ const Services = () => {
             </div>
           </Col>
         </Row>
-        <Row className="serviceWork">
-          <Col lg={6} md={12} sm={12}>
-            <h1 className="servicesCreateTitle">
-              Create A Beautiful Presentation For Client to see
-            </h1>
-            <p className="servicesCreateSubTitle">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam
-            </p>
-
-            <Button className="serviceBtn" variant="info">
-              View features
-            </Button>
-          </Col>
-
-          <Col lg={6} md={12} sm={12}>
-            <img
-              className="serviceImg"
-              src="https://startit.qodeinteractive.com/wp-content/uploads/2015/10/graphic-1-home-main.png"
-              alt="Services Img"
-            />
-          </Col>
-        </Row>
       </Container>
     </>
   );

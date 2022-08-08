@@ -6,7 +6,7 @@ const NavMenu = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">Novel</div>
+        <div className="logo">NOVEL</div>
 
         <ul className="nav-links">
           <input type="checkbox" id="checkbox_toggle" />

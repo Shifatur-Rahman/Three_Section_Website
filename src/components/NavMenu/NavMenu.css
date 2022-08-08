@@ -26,6 +26,8 @@ li {
 }
 /* LOGO */
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
   font-size: 32px;
 }
 /* NAVBAR MENU */
