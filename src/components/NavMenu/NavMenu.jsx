@@ -9,11 +9,6 @@ const NavMenu = () => {
         <div className="logo">NOVEL</div>
 
         <ul className="nav-links">
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" className="hamburger">
-            &#9776;
-          </label>
-
           <div className="menu">
             <li>
               <Link to="/">Home</Link>
